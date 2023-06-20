@@ -1,0 +1,24 @@
+#display {
+    height: 50px;
+    background-color: #fff;
+    font-size: 32px;
+    padding: 10px;
+    margin-block: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#display::-webkit-scrollbar {
+    background-color: transparent;
+    height: 10px;
+}
+
+#display::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+    border: solid 2px white;
+}

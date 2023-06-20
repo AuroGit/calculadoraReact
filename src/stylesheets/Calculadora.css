@@ -1,0 +1,26 @@
+#calculadora {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 300px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #000c;
+    padding: 15px;
+    border-radius: 10px;
+    transition: box-shadow .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#calculadora:hover { box-shadow: 0 0 20px 5px white; }
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}

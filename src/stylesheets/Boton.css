@@ -1,0 +1,20 @@
+.boton {
+    background-color: #888;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+}
+
+.boton:hover {
+    background-color: white;
+    color: #000;
+}
+
+.operator { background-color: #444; }
+.delete, .clear { background-color: #222; }
+.equals { grid-column: 1/4; background-color: #333; }

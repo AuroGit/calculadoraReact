@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    --rgb: #252525;
+    display: flex;
+    height: 100vh;
+    background-color: var(--rgb);
+    font-family: monospace;
+    transition: background-color 1s;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100px;
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+}
